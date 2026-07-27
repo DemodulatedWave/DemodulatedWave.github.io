@@ -48,7 +48,9 @@ async function loadArticle() {
     }
     
     try {
-        const response = await fetch(`articles/${articleId}/article.md`);
+        // Use GitHub raw content URL for markdown files
+        const rawUrl = `https://raw.githubusercontent.com/DemodulatedWave/DemodulatedWave.github.io/main/articles/${articleId}/article.md`;
+        const response = await fetch(rawUrl);
         if (!response.ok) throw new Error('Article not found');
         
         const markdown = await response.text();
