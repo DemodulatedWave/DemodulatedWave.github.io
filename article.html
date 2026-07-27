@@ -11,8 +11,12 @@
 <body>
     <header class="site-header">
         <nav class="navbar">
-            <div class="container">
+            <div class="container navbar-content">
                 <div class="logo">🔬 Electronics Lab</div>
+                <div class="search-container">
+                    <input type="text" id="search-input" class="search-box" placeholder="Search articles or tags...">
+                    <div id="search-results-dropdown" class="search-results-dropdown"></div>
+                </div>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -30,6 +34,7 @@
                 <div class="article-header">
                     <h1 id="article-title">Loading...</h1>
                     <p class="article-meta">Published: <span id="article-date">—</span></p>
+                    <div id="article-tags" class="article-tags"></div>
                 </div>
                 <div id="article-content" class="article-content">
                     <!-- Article content loads here -->
