@@ -18,8 +18,8 @@ $$V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}$$
 
 ```
 V_in ──→ [R1] ──→ [R2] ──→ GND
-                   ↓
-                 V_out
+               ↓
+             V_out
 ```
 
 ## Example Calculation

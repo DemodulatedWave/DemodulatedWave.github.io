@@ -66,4 +66,4 @@ Once you master the blink, try:
 - Creating LED patterns
 - PWM brightness control
 
-Happy blinking! 🔬
+Happy blinking! 🔌
