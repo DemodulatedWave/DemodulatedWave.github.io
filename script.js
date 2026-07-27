@@ -93,8 +93,7 @@ async function loadArticle() {
             
             // Trigger MathJax to render LaTeX
             if (window.MathJax) {
-                MathJax.contentDocument(contentDiv);
-                MathJax.typesetPromise([contentDiv]).catch(err => console.log(err));
+                MathJax.typesetPromise([contentDiv]).catch(err => console.log('MathJax error:', err));
             }
         }
     } catch (error) {
