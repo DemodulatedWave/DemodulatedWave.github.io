@@ -158,8 +158,8 @@ body {
 
 /* Hero Section */
 .hero {
-    background: --primary-color
-    color: white;
+    background: #2c3e50
+    color: #2c3e50;
     padding: 4rem 2rem;
     border-radius: 8px;
     text-align: center;
