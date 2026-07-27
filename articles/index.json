@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "id": "led-blink-tutorial",
+      "title": "Getting Started: LED Blink with Arduino",
+      "date": "2026-07-25",
+      "excerpt": "A beginner's guide to blinking an LED using Arduino. Learn the basics of digital pins, voltage, and simple circuit design."
+    },
+    {
+      "id": "voltage-divider-explained",
+      "title": "Understanding Voltage Dividers",
+      "date": "2026-07-20",
+      "excerpt": "Deep dive into voltage divider circuits, calculations, and practical applications in analog signal conditioning."
+    }
+  ]
+}
