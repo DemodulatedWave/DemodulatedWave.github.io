@@ -1,7 +1,3 @@
-# Electronics Lab Blog
-
-A personal blog for sharing electronics projects, tutorials, and experiments.
-
 ## Features
 
 ✨ **Markdown Support** - Write articles in clean, simple markdown
@@ -113,24 +109,3 @@ Edit the CSS variables in `style.css`:
     --accent-color: #e74c3c;
 }
 ```
-
-## Deployment
-
-This site is hosted on GitHub Pages automatically. Just push to the `main` branch!
-
-1. Navigate to your repository settings
-2. Go to "Pages"
-3. Set source to "Deploy from a branch" → "main"
-4. Your site will be live at `https://yourusername.github.io`
-
-## Tips & Best Practices
-
-- Keep article IDs simple and URL-friendly (lowercase, hyphens)
-- Use descriptive excerpts (1-2 sentences)
-- Include relevant images to break up text
-- Organize related articles with consistent naming
-- Test math rendering locally by opening `article.html` in a browser
-
-## License
-
-Your content, your rules! Add a LICENSE file if needed.
