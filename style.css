@@ -7,6 +7,7 @@
     --border-color: #bdc3c7;
     --tag-bg: #d5dbdb;
     --tag-text: #566573;
+    --hero-bg: #34495e;
 }
 
 * {
@@ -158,12 +159,20 @@ body {
 
 /* Hero Section */
 .hero {
-    background: #2c3e50
-    color: #2c3e50;
-    padding: 4rem 2rem;
+    background-color: var(--hero-bg);
+    color: white;
+    padding: 3rem 2rem;
     border-radius: 8px;
     text-align: center;
     margin: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
 }
 
 .hero h1 {
@@ -173,7 +182,7 @@ body {
 
 .hero p {
     font-size: 1.2rem;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 /* Articles Section */
