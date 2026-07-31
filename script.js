@@ -1,4 +1,4 @@
-// Global articles data
+// Global articles datas
 let allArticles = [];
 let currentFilter = null;
 
