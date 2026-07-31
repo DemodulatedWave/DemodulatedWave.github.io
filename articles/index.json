@@ -1,11 +1,11 @@
 {
   "articles": [
     {
-      "id": "led-blink-tutorial",
-      "title": "Getting Started: LED Blink with Arduino",
+      "id": "am-radio",
+      "title": "Build an AM Radio!",
       "date": "2026-07-25",
-      "excerpt": "A beginner's guide to blinking an LED using Arduino. Learn the basics of digital pins, voltage, and simple circuit design.",
-      "tags": ["Arduino", "LED", "Beginner", "Digital"]
+      "excerpt": "A guide to build a simple AM radio reciever.",
+      "tags": ["Radio", "AM", "Intermediate", "Analog", "Tutorial", "RF",  "Theory"]
     },
     {
       "id": "voltage-divider-explained",
